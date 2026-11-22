@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2116" format="2">
+  <advance width="941.0131107679249"/>
+  <unicode hex="2116"/>
+  <outline>
+    <contour>
+      <point x="747" y="384" type="line"/>
+      <point x="753" y="422" type="line"/>
+      <point x="946" y="422" type="line"/>
+      <point x="940" y="384" type="line"/>
+    </contour>
+    <component base="N"/>
+    <component base="ordmasculine" xOffset="671.0131107679249"/>
+  </outline>
+</glyph>

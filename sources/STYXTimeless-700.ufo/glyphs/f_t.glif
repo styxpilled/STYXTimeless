@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_t" format="2">
+  <advance width="673"/>
+  <outline>
+    <contour>
+      <point x="318" y="335" type="line"/>
+      <point x="318" y="460" type="line"/>
+      <point x="361" y="460" type="line"/>
+      <point x="361" y="335" type="line"/>
+    </contour>
+    <component base="f"/>
+    <component base="t" xOffset="355"/>
+  </outline>
+</glyph>

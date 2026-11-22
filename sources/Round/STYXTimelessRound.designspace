@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <labels>
+        <label uservalue="100" name="Hairline"/>
+        <label uservalue="200" name="Thin"/>
+        <label uservalue="300" name="Light"/>
+        <label uservalue="400" name="Book" linkeduservalue="700"/>
+        <label uservalue="500" name="Medium"/>
+        <label uservalue="600" name="Demi"/>
+        <label uservalue="700" name="Bold"/>
+        <label uservalue="800" name="Heavy"/>
+        <label uservalue="900" name="Black"/>
+      </labels>
+    </axis>
+    <axis tag="ital" name="Italic" minimum="0" maximum="1" default="0">
+      <labels>
+        <label uservalue="0" name="Roman" elidable="true" linkeduservalue="1"/>
+        <label uservalue="1" name="Italic"/>
+      </labels>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="STYXTimelessRound-100.ufo" name="STYXTimelessRound-100" familyname="STYX Timeless Round" stylename="Hairline">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-200.ufo" name="STYXTimelessRound-200" familyname="STYX Timeless Round" stylename="Thin">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-300.ufo" name="STYXTimelessRound-300" familyname="STYX Timeless Round" stylename="Light">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-400.ufo" name="STYXTimelessRound-400" familyname="STYX Timeless Round" stylename="Book">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-500.ufo" name="STYXTimelessRound-500" familyname="STYX Timeless Round" stylename="Medium">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-600.ufo" name="STYXTimelessRound-600" familyname="STYX Timeless Round" stylename="Demi">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-700.ufo" name="STYXTimelessRound-700" familyname="STYX Timeless Round" stylename="Bold">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-800.ufo" name="STYXTimelessRound-800" familyname="STYX Timeless Round" stylename="Heavy">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-900.ufo" name="STYXTimelessRound-900" familyname="STYX Timeless Round" stylename="Black">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-100-Italic.ufo" name="STYXTimelessRound-100-Italic" familyname="STYX Timeless Round" stylename="Hairline Italic">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-400-Italic.ufo" name="STYXTimelessRound-400-Italic" familyname="STYX Timeless Round" stylename="Book Italic">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </source>
+    <source filename="STYXTimelessRound-900-Italic.ufo" name="STYXTimelessRound-900-Italic" familyname="STYX Timeless Round" stylename="Black Italic">
+      <lib copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance familyname="STYX Timeless Round" stylename="Hairline" filename="instances/STYXTimelessRound-Hairline.ufo" postscriptfontname="STYXTimelessRound-Hairline" stylemapfamilyname="STYX Timeless Round Hairline" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Thin" filename="instances/STYXTimelessRound-Thin.ufo" postscriptfontname="STYXTimelessRound-Thin" stylemapfamilyname="STYX Timeless Round Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Light" filename="instances/STYXTimelessRound-Light.ufo" postscriptfontname="STYXTimelessRound-Light" stylemapfamilyname="STYX Timeless Round Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Book" filename="instances/STYXTimelessRound-Book.ufo" postscriptfontname="STYXTimelessRound-Book" stylemapfamilyname="STYX Timeless Round" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Medium" filename="instances/STYXTimelessRound-Medium.ufo" postscriptfontname="STYXTimelessRound-Medium" stylemapfamilyname="STYX Timeless Round Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Demi" filename="instances/STYXTimelessRound-Demi.ufo" postscriptfontname="STYXTimelessRound-Demi" stylemapfamilyname="STYX Timeless Round Demi" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Bold" filename="instances/STYXTimelessRound-Bold.ufo" postscriptfontname="STYXTimelessRound-Bold" stylemapfamilyname="STYX Timeless Round" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Heavy" filename="instances/STYXTimelessRound-Heavy.ufo" postscriptfontname="STYXTimelessRound-Heavy" stylemapfamilyname="STYX Timeless Round Heavy" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Black" filename="instances/STYXTimelessRound-Black.ufo" postscriptfontname="STYXTimelessRound-Black" stylemapfamilyname="STYX Timeless Round Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Hairline Italic" filename="instances/STYXTimelessRound-HairlineItalic.ufo" postscriptfontname="STYXTimelessRound-HairlineItalic" stylemapfamilyname="STYX Timeless Round Hairline" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Thin Italic" filename="instances/STYXTimelessRound-ThinItalic.ufo" postscriptfontname="STYXTimelessRound-ThinItalic" stylemapfamilyname="STYX Timeless Round Thin" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Light Italic" filename="instances/STYXTimelessRound-LightItalic.ufo" postscriptfontname="STYXTimelessRound-LightItalic" stylemapfamilyname="STYX Timeless Round Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Book Italic" filename="instances/STYXTimelessRound-BookItalic.ufo" postscriptfontname="STYXTimelessRound-BookItalic" stylemapfamilyname="STYX Timeless Round" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Medium Italic" filename="instances/STYXTimelessRound-MediumItalic.ufo" postscriptfontname="STYXTimelessRound-MediumItalic" stylemapfamilyname="STYX Timeless Round Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Demi Italic" filename="instances/STYXTimelessRound-DemiItalic.ufo" postscriptfontname="STYXTimelessRound-DemiItalic" stylemapfamilyname="STYX Timeless Round Demi" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Bold Italic" filename="instances/STYXTimelessRound-BoldItalic.ufo" postscriptfontname="STYXTimelessRound-BoldItalic" stylemapfamilyname="STYX Timeless Round" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Heavy Italic" filename="instances/STYXTimelessRound-HeavyItalic.ufo" postscriptfontname="STYXTimelessRound-HeavyItalic" stylemapfamilyname="STYX Timeless Round Heavy" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+    <instance familyname="STYX Timeless Round" stylename="Black Italic" filename="instances/STYXTimelessRound-BlackItalic.ufo" postscriptfontname="STYXTimelessRound-BlackItalic" stylemapfamilyname="STYX Timeless Round Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="1"/>
+      </location>
+    </instance>
+  </instances>
+</designspace>

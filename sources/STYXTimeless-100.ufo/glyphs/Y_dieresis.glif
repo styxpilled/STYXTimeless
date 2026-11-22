@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ydieresis" format="2">
+  <advance width="507"/>
+  <unicode hex="0178"/>
+  <anchor x="254" y="777" name="top"/>
+  <anchor x="254" y="0" name="bottom"/>
+  <anchor x="354" y="10" name="ogonek"/>
+  <outline>
+    <component base="Y"/>
+    <component base="uni0308.case" xOffset="43" yOffset="92"/>
+  </outline>
+</glyph>

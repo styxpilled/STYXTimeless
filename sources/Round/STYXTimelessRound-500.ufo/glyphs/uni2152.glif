@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2152" format="2">
+  <advance width="1258"/>
+  <unicode hex="2152"/>
+  <outline>
+    <component base="one.numr"/>
+    <component base="fraction" xOffset="336"/>
+    <component base="one.dnom" xOffset="561"/>
+    <component base="zero.dnom" xOffset="862"/>
+  </outline>
+</glyph>

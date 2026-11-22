@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.slash.dnom" format="2">
+  <advance width="439"/>
+  <outline>
+    <contour>
+      <point x="136" y="92" type="line"/>
+      <point x="269" y="346" type="line"/>
+      <point x="303" y="328" type="line"/>
+      <point x="170" y="74" type="line"/>
+    </contour>
+    <component base="zero.dnom"/>
+  </outline>
+</glyph>

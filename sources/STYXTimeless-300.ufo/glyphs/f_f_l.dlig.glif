@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_l.dlig" format="2">
+  <advance width="780"/>
+  <outline>
+    <contour>
+      <point x="376" y="0" type="line"/>
+      <point x="376" y="638" type="line"/>
+      <point x="376" y="731"/>
+      <point x="415" y="789"/>
+      <point x="499" y="789" type="curve"/>
+      <point x="578" y="789" type="line"/>
+      <point x="662" y="789"/>
+      <point x="701" y="731"/>
+      <point x="701" y="638" type="curve"/>
+      <point x="701" y="0" type="line"/>
+      <point x="649" y="0" type="line"/>
+      <point x="649" y="632" type="line"/>
+      <point x="649" y="694"/>
+      <point x="631" y="737"/>
+      <point x="581" y="737" type="curve"/>
+      <point x="496" y="737" type="line"/>
+      <point x="446" y="737"/>
+      <point x="428" y="694"/>
+      <point x="428" y="632" type="curve"/>
+      <point x="428" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="294" y="411" type="line"/>
+      <point x="294" y="460" type="line"/>
+      <point x="510" y="460" type="line"/>
+      <point x="510" y="411" type="line"/>
+    </contour>
+    <contour>
+      <point x="224" y="411" type="line"/>
+      <point x="224" y="460" type="line"/>
+      <point x="295" y="460" type="line"/>
+      <point x="295" y="411" type="line"/>
+    </contour>
+    <component base="f"/>
+  </outline>
+</glyph>

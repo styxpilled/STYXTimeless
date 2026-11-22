@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wacute.sharp" format="2">
+  <advance width="660"/>
+  <anchor x="464" y="704" name="top"/>
+  <anchor x="342" y="0" name="bottom"/>
+  <anchor x="442" y="24" name="ogonek"/>
+  <outline>
+    <component base="w.sharp"/>
+    <component base="acutecomb" xOffset="193" yOffset="56"/>
+  </outline>
+</glyph>

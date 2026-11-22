@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_l" format="2">
+  <advance width="760"/>
+  <unicode hex="FB04"/>
+  <outline>
+    <contour>
+      <point x="209" y="450" type="line"/>
+      <point x="209" y="460" type="line"/>
+      <point x="306" y="460" type="line"/>
+      <point x="306" y="450" type="line"/>
+    </contour>
+    <component base="f"/>
+    <component base="f" xOffset="290"/>
+    <component base="l" xOffset="580"/>
+  </outline>
+</glyph>

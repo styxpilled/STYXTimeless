@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron.tail" format="2">
+  <advance width="355"/>
+  <outline>
+    <contour>
+      <point x="289" y="764" type="line"/>
+      <point x="300" y="759" type="line"/>
+      <point x="190" y="509" type="line"/>
+      <point x="184" y="511" type="line"/>
+    </contour>
+    <component base="l.tail"/>
+  </outline>
+</glyph>

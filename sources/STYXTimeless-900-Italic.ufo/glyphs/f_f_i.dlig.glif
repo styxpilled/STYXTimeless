@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f_i.dlig" format="2">
+  <advance width="1058"/>
+  <outline>
+    <contour>
+      <point x="385" y="305" type="line"/>
+      <point x="412" y="460" type="line"/>
+      <point x="446" y="460" type="line"/>
+      <point x="419" y="305" type="line"/>
+    </contour>
+    <contour>
+      <point x="775" y="305" type="line"/>
+      <point x="802" y="460" type="line"/>
+      <point x="879" y="460" type="line"/>
+      <point x="852" y="305" type="line"/>
+    </contour>
+    <component base="f"/>
+    <component base="f" xOffset="390"/>
+    <component base="i" xOffset="780"/>
+  </outline>
+</glyph>

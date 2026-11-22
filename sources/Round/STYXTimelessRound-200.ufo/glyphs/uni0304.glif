@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0304" format="2">
+  <unicode hex="0304"/>
+  <anchor x="255" y="576" name="_top"/>
+  <anchor x="255" y="660" name="top"/>
+  <outline>
+    <component base="macron"/>
+  </outline>
+</glyph>

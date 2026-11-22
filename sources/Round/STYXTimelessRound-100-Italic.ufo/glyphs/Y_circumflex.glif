@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ycircumflex" format="2">
+  <advance width="492"/>
+  <unicode hex="0176"/>
+  <anchor x="373" y="902" name="top"/>
+  <anchor x="277" y="0" name="bottom"/>
+  <anchor x="372" y="10" name="ogonek"/>
+  <outline>
+    <component base="Y"/>
+    <component base="uni0302.case" xOffset="57" yOffset="187"/>
+  </outline>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Utilde" format="2">
+  <advance width="576"/>
+  <unicode hex="0168"/>
+  <anchor x="288" y="815" name="top"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="406" y="10" name="ogonek"/>
+  <outline>
+    <component base="U"/>
+    <component base="tildecomb.case" xOffset="20" yOffset="122"/>
+  </outline>
+</glyph>

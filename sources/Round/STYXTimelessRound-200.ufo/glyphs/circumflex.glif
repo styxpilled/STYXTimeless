@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflex" format="2">
+  <advance width="480"/>
+  <unicode hex="02C6"/>
+  <anchor x="240" y="730" name="top"/>
+  <anchor x="240" y="0" name="bottom"/>
+  <anchor x="342" y="14" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="240" y="696" type="line"/>
+      <point x="109" y="581" type="line" smooth="yes"/>
+      <point x="104" y="576"/>
+      <point x="96" y="576"/>
+      <point x="91" y="581" type="curve" smooth="yes"/>
+      <point x="89" y="582" type="line" smooth="yes"/>
+      <point x="84" y="586"/>
+      <point x="84" y="594"/>
+      <point x="89" y="598" type="curve" smooth="yes"/>
+      <point x="229" y="720" type="line" smooth="yes"/>
+      <point x="235" y="726"/>
+      <point x="245" y="726"/>
+      <point x="251" y="720" type="curve" smooth="yes"/>
+      <point x="391" y="598" type="line" smooth="yes"/>
+      <point x="396" y="594"/>
+      <point x="396" y="586"/>
+      <point x="391" y="582" type="curve" smooth="yes"/>
+      <point x="389" y="581" type="line" smooth="yes"/>
+      <point x="384" y="576"/>
+      <point x="376" y="576"/>
+      <point x="371" y="581" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

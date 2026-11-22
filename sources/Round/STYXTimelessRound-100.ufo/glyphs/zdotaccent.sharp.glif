@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zdotaccent.sharp" format="2">
+  <advance width="430"/>
+  <anchor x="220" y="537" name="top"/>
+  <anchor x="225" y="0" name="bottom"/>
+  <anchor x="326" y="10" name="ogonek"/>
+  <outline>
+    <component base="z.sharp"/>
+    <component base="uni0307" xOffset="99" yOffset="-210"/>
+  </outline>
+</glyph>

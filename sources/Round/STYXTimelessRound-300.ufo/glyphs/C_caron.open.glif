@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ccaron.open" format="2">
+  <advance width="680"/>
+  <anchor x="384" y="922" name="top"/>
+  <anchor x="364" y="0" name="bottom"/>
+  <anchor x="468" y="19" name="ogonek"/>
+  <outline>
+    <component base="C.open"/>
+    <component base="uni030C.case" xOffset="144" yOffset="200"/>
+  </outline>
+</glyph>

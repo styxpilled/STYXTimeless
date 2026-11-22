@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E88.sharp" format="2">
+  <advance width="962"/>
+  <outline>
+    <component base="dotaccent" xOffset="352" yOffset="-868"/>
+    <component base="W.sharp"/>
+  </outline>
+</glyph>

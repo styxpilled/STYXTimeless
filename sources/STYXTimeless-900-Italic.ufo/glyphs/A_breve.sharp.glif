@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Abreve.sharp" format="2">
+  <advance width="756"/>
+  <anchor x="505" y="905" name="top"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="665" y="25" name="ogonek"/>
+  <outline>
+    <component base="A.sharp"/>
+    <component base="uni0306.case" xOffset="118" yOffset="132"/>
+  </outline>
+</glyph>

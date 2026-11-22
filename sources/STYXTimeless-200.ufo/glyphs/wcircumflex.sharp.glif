@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wcircumflex.sharp" format="2">
+  <advance width="638"/>
+  <anchor x="314" y="672" name="top"/>
+  <anchor x="319" y="0" name="bottom"/>
+  <anchor x="421" y="14" name="ogonek"/>
+  <outline>
+    <component base="w.sharp"/>
+    <component base="uni0302" xOffset="74" yOffset="-22"/>
+  </outline>
+</glyph>

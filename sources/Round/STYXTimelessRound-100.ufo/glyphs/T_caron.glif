@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tcaron" format="2">
+  <advance width="431"/>
+  <unicode hex="0164"/>
+  <anchor x="216" y="903" name="top"/>
+  <anchor x="214" y="0" name="bottom"/>
+  <anchor x="314" y="10" name="ogonek"/>
+  <outline>
+    <component base="T"/>
+    <component base="uni030C.case" xOffset="-24" yOffset="200"/>
+  </outline>
+</glyph>

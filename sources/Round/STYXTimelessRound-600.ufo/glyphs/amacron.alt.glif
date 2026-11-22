@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="amacron.alt" format="2">
+  <advance width="521"/>
+  <anchor x="268" y="629" name="top"/>
+  <anchor x="246" y="0" name="bottom"/>
+  <anchor x="487" y="25" name="ogonek"/>
+  <outline>
+    <component base="a.alt"/>
+    <component base="uni0304" xOffset="5" yOffset="-50"/>
+  </outline>
+</glyph>

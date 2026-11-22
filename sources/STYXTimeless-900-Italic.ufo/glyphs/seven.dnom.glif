@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.dnom" format="2">
+  <advance width="398"/>
+  <outline>
+    <contour>
+      <point x="49" y="276" type="line"/>
+      <point x="72" y="420" type="line"/>
+      <point x="458" y="420" type="line"/>
+      <point x="194" y="0" type="line"/>
+      <point x="25" y="0" type="line"/>
+      <point x="211" y="276" type="line"/>
+    </contour>
+  </outline>
+</glyph>

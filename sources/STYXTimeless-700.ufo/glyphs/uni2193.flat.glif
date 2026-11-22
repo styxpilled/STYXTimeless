@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2193.flat" format="2">
+  <advance width="775"/>
+  <outline>
+    <contour>
+      <point x="433" y="0" type="line"/>
+      <point x="718" y="285" type="line"/>
+      <point x="533" y="285" type="line"/>
+      <point x="453" y="205" type="line"/>
+      <point x="453" y="700" type="line"/>
+      <point x="322" y="700" type="line"/>
+      <point x="322" y="205" type="line"/>
+      <point x="242" y="285" type="line"/>
+      <point x="57" y="285" type="line"/>
+      <point x="342" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

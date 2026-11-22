@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="270"/>
+  <unicode hex="0167"/>
+  <anchor x="136" y="620" name="top"/>
+  <anchor x="136" y="0" name="bottom"/>
+  <anchor x="242" y="25" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="20.579549999999998" y="176" type="line"/>
+      <point x="20.579549999999998" y="273" type="line"/>
+      <point x="249.34109999999998" y="273" type="line"/>
+      <point x="249.34109999999998" y="176" type="line"/>
+    </contour>
+    <component base="t"/>
+  </outline>
+</glyph>

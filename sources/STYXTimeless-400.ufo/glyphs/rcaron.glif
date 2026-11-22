@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rcaron" format="2">
+  <advance width="343"/>
+  <unicode hex="0159"/>
+  <anchor x="192" y="695" name="top"/>
+  <anchor x="115" y="0" name="bottom"/>
+  <anchor x="220" y="25" name="ogonek"/>
+  <outline>
+    <component base="r"/>
+    <component base="uni030C" xOffset="-48" yOffset="-40"/>
+  </outline>
+</glyph>

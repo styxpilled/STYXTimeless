@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odieresis" format="2">
+  <advance width="840"/>
+  <unicode hex="00D6"/>
+  <anchor x="430" y="951" name="top"/>
+  <anchor x="420" y="0" name="bottom"/>
+  <anchor x="530" y="25" name="ogonek"/>
+  <outline>
+    <component base="O"/>
+    <component base="uni0308.case" xOffset="162" yOffset="263"/>
+  </outline>
+</glyph>

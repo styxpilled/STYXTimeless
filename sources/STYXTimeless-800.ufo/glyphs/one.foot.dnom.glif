@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.foot.dnom" format="2">
+  <advance width="425"/>
+  <outline>
+    <contour>
+      <point x="35" y="0" type="line"/>
+      <point x="35" y="98" type="line"/>
+      <point x="390" y="98" type="line"/>
+      <point x="390" y="0" type="line"/>
+    </contour>
+    <component base="one.dnom"/>
+  </outline>
+</glyph>
