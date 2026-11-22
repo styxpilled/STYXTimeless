@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="625"/>
+  <unicode hex="0141"/>
+  <anchor x="330" y="700" name="top"/>
+  <anchor x="330" y="0" name="bottom"/>
+  <anchor x="440" y="25" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="104" y="317" type="line" smooth="yes"/>
+      <point x="91" y="308"/>
+      <point x="73" y="312"/>
+      <point x="65" y="326" type="curve" smooth="yes"/>
+      <point x="48" y="356" type="line" smooth="yes"/>
+      <point x="41" y="368"/>
+      <point x="44" y="384"/>
+      <point x="56" y="392" type="curve" smooth="yes"/>
+      <point x="402" y="629" type="line" smooth="yes"/>
+      <point x="416" y="638"/>
+      <point x="434" y="634"/>
+      <point x="442" y="620" type="curve" smooth="yes"/>
+      <point x="459" y="589" type="line" smooth="yes"/>
+      <point x="467" y="577"/>
+      <point x="463" y="561"/>
+      <point x="451" y="553" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="147" y="673" type="line" smooth="yes"/>
+      <point x="147" y="688"/>
+      <point x="159" y="700"/>
+      <point x="174" y="700" type="curve" smooth="yes"/>
+      <point x="314" y="700" type="line" smooth="yes"/>
+      <point x="329" y="700"/>
+      <point x="341" y="688"/>
+      <point x="341" y="673" type="curve" smooth="yes"/>
+      <point x="341" y="166" type="line"/>
+      <point x="598" y="166" type="line" smooth="yes"/>
+      <point x="613" y="166"/>
+      <point x="625" y="154"/>
+      <point x="625" y="139" type="curve" smooth="yes"/>
+      <point x="625" y="27" type="line" smooth="yes"/>
+      <point x="625" y="12"/>
+      <point x="613" y="0"/>
+      <point x="598" y="0" type="curve" smooth="yes"/>
+      <point x="174" y="0" type="line" smooth="yes"/>
+      <point x="159" y="0"/>
+      <point x="147" y="12"/>
+      <point x="147" y="27" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Acircumflex.sharp" format="2">
+  <advance width="636"/>
+  <anchor x="318" y="922" name="top"/>
+  <anchor x="318" y="0" name="bottom"/>
+  <anchor x="666" y="19" name="ogonek"/>
+  <outline>
+    <component base="A.sharp"/>
+    <component base="uni0302.case" xOffset="78" yOffset="234"/>
+  </outline>
+</glyph>

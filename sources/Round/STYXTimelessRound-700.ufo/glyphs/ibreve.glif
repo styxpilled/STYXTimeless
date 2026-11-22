@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve" format="2">
+  <advance width="276"/>
+  <unicode hex="012D"/>
+  <anchor x="138" y="661" name="top"/>
+  <anchor x="138" y="0" name="bottom"/>
+  <anchor x="246" y="25" name="ogonek"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="uni0306" xOffset="-135" yOffset="-174"/>
+  </outline>
+</glyph>

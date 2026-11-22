@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccedilla.open" format="2">
+  <advance width="460"/>
+  <anchor x="260" y="460" name="top"/>
+  <anchor x="231" y="0" name="bottom"/>
+  <anchor x="336" y="25" name="ogonek"/>
+  <outline>
+    <component base="c.open"/>
+    <component base="uni0327" xOffset="54" yOffset="-1"/>
+  </outline>
+</glyph>

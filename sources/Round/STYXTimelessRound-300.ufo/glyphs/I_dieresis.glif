@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis" format="2">
+  <advance width="219"/>
+  <unicode hex="00CF"/>
+  <anchor x="110" y="830" name="top"/>
+  <anchor x="110" y="0" name="bottom"/>
+  <anchor x="176" y="19" name="ogonek"/>
+  <outline>
+    <component base="I"/>
+    <component base="uni0308.case" xOffset="-116" yOffset="136"/>
+  </outline>
+</glyph>

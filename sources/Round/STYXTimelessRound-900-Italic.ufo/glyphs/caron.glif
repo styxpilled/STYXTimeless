@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="466"/>
+  <unicode hex="02C7"/>
+  <anchor x="342" y="770" name="top"/>
+  <anchor x="206" y="0" name="bottom"/>
+  <anchor x="310" y="25" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="320" y="690" type="line"/>
+      <point x="388" y="750" type="line" smooth="yes"/>
+      <point x="401" y="761"/>
+      <point x="420" y="762"/>
+      <point x="433" y="752" type="curve" smooth="yes"/>
+      <point x="492" y="708" type="line" smooth="yes"/>
+      <point x="512" y="693"/>
+      <point x="510" y="662"/>
+      <point x="488" y="649" type="curve" smooth="yes"/>
+      <point x="322" y="551" type="line" smooth="yes"/>
+      <point x="310" y="544"/>
+      <point x="294" y="545"/>
+      <point x="283" y="553" type="curve" smooth="yes"/>
+      <point x="152" y="650" type="line" smooth="yes"/>
+      <point x="131" y="665"/>
+      <point x="132" y="697"/>
+      <point x="155" y="710" type="curve" smooth="yes"/>
+      <point x="229" y="754" type="line" smooth="yes"/>
+      <point x="245" y="763"/>
+      <point x="264" y="760"/>
+      <point x="276" y="746" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

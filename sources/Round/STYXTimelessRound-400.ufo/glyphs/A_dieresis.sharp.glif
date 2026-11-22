@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Adieresis.sharp" format="2">
+  <advance width="660"/>
+  <anchor x="330" y="865" name="top"/>
+  <anchor x="330" y="0" name="bottom"/>
+  <anchor x="693" y="25" name="ogonek"/>
+  <outline>
+    <component base="A.sharp"/>
+    <component base="uni0308.case" xOffset="95" yOffset="200"/>
+  </outline>
+</glyph>

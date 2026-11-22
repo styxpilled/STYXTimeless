@@ -1,0 +1,240 @@
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem cyrl dflt;
+languagesystem latn dflt;
+
+# GSUB 
+
+lookup alta {
+  lookupflag 0;
+    sub \a by \a.alt ;
+    sub \agrave by \agrave.alt ;
+    sub \aacute by \aacute.alt ;
+    sub \acircumflex by \acircumflex.alt ;
+    sub \atilde by \atilde.alt ;
+    sub \adieresis by \adieresis.alt ;
+    sub \aring by \aring.alt ;
+    sub \amacron by \amacron.alt ;
+    sub \abreve by \abreve.alt ;
+    sub \aogonek by \aogonek.alt ;
+    sub \uni01CE by \uni01CE.alt ;
+} alta;
+
+lookup TabularNumberslookup {
+    sub [zero one two three four five six seven eight nine dollar sterling cent Euro period comma colon semicolon] by [zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf dollar.tf sterling.tf cent.tf Euro.tf period.tf comma.tf colon.tf semicolon.tf];
+} TabularNumberslookup;
+
+feature ss01 {
+
+ script DFLT;
+     language dflt ;
+      lookup alta;
+
+ script latn;
+     language dflt ;
+      lookup alta;
+} ss01;
+
+feature tnum {
+
+ script DFLT;
+     language dflt ;
+      lookup TabularNumberslookup;
+
+ script grek;
+     language dflt ;
+      lookup TabularNumberslookup;
+
+ script latn;
+     language dflt ;
+      lookup TabularNumberslookup;
+} tnum;
+
+# GPOS 
+
+# cyrillic.py
+feature ss03 {
+    sub [uni0414 uni0434] by [uni0414.tri uni0434.tri];
+} ss03;
+# cyrillic.py end
+
+# marks.py (generated)
+@TopMarks = [acutecomb gravecomb tildecomb uni0302 uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C];
+@TopMarksCase = [acutecomb.case gravecomb.case tildecomb.case uni0302.case uni0304.case uni0306.case uni0307.case uni0308.case uni030A.case uni030B.case uni030C.case];
+@TopMarksAll = [@TopMarks @TopMarksCase];
+@Caps = [A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F G Gbreve Gcircumflex Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K L Lacute Lcaron Ldot Lslash M N Nacute Ncaron Ntilde O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent uni0122 uni0136 uni013B uni0145 uni0156 uni0162 uni01CD uni01CF uni01D1 uni01D3 uni01D5 uni01D7 uni01D9 uni01DB uni01E6 uni01E8 uni0212 uni0218 uni021A uni021E uni0394 uni03A9 uni0400 uni0401 uni0403 uni0404 uni0406 uni0407 uni040C uni040D uni040E uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F uni0490 uni1E86 uni1E88 uni1E9E];
+lookup dotless {
+    sub i by dotlessi;
+    sub j by uni0237;
+    sub i by dotlessi;
+    sub j by uni0237;
+    sub uni0456 by dotlessi;
+} dotless;
+lookup casemarks {
+    sub @TopMarks by @TopMarksCase;
+} casemarks;
+feature ccmp {
+    sub [i j uni0456]' lookup dotless @TopMarks;
+    sub [G K L N R k l n r] uni0327' by uni0326;
+    sub @Caps @TopMarks' lookup casemarks;
+    sub @Caps @TopMarksAll @TopMarks' lookup casemarks;
+    sub h uni030C by uni021F;
+} ccmp;
+# marks.py end
+
+# math_signs.py (generated)
+@Figures = [zero one two three four five six seven eight nine zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf];
+@MathContext = [@Figures plus minus equal multiply divide plusminus notequal less greater lessequal greaterequal approxequal];
+@Letters = [A AE Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng Eogonek Eth F G Gbreve Gcircumflex Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K L Lacute Lcaron Ldot Lslash M N Nacute Ncaron Ntilde O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P Q R Racute Rcaron S Sacute Scaron Scedilla Scircumflex T Tbar Tcaron Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis ae agrave amacron aogonek aring atilde b c cacute caron ccaron ccedilla ccircumflex cdotaccent circumflex d dcaron dcroat dotlessi e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f florin g gbreve gcircumflex gdotaccent germandbls h hbar hcircumflex i iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j jcircumflex k kgreenlandic l lacute lcaron ldot lslash m mu n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron ordfeminine ordmasculine oslash otilde p pi q r racute rcaron s sacute scaron scedilla scircumflex t tbar tcaron thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni0122 uni0123 uni0136 uni0137 uni013B uni013C uni0145 uni0146 uni0156 uni0157 uni0162 uni0163 uni01CD uni01CE uni01CF uni01D0 uni01D1 uni01D2 uni01D3 uni01D4 uni01D5 uni01D6 uni01D7 uni01D8 uni01D9 uni01DA uni01DB uni01DC uni01E6 uni01E7 uni01E8 uni01E9 uni01F0 uni0212 uni0213 uni0218 uni0219 uni021A uni021B uni021E uni021F uni0237 uni02BC uni0394 uni03A9 uni03BC uni0400 uni0401 uni0403 uni0404 uni0406 uni0407 uni040C uni040D uni040E uni0410 uni0411 uni0412 uni0413 uni0414 uni0415 uni0416 uni0417 uni0418 uni0419 uni041A uni041B uni041C uni041D uni041E uni041F uni0420 uni0421 uni0422 uni0423 uni0424 uni0425 uni0426 uni0427 uni0428 uni0429 uni042A uni042B uni042C uni042D uni042E uni042F uni0430 uni0431 uni0432 uni0433 uni0434 uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0453 uni0454 uni0456 uni0457 uni045C uni045D uni045E uni0490 uni0491 uni1E86 uni1E87 uni1E88 uni1E89 uni1E9E uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent];
+@Lower = [a a.alt aacute aacute.alt abreve abreve.alt acircumflex acircumflex.alt adieresis adieresis.alt ae agrave agrave.alt amacron amacron.alt aogonek aogonek.alt aring aring.alt atilde atilde.alt b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eng eogonek eth f florin g gbreve gcircumflex gdotaccent germandbls h hbar hcircumflex i iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j jcircumflex k kgreenlandic l lacute lcaron ldot lslash m mu n nacute napostrophe ncaron ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde p pi q r racute rcaron s sacute scaron scedilla scircumflex t tbar tcaron thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni0123 uni0137 uni013C uni0146 uni0157 uni0163 uni01CE uni01CE.alt uni01D0 uni01D2 uni01D4 uni01D6 uni01D8 uni01DA uni01DC uni01E7 uni01E9 uni01F0 uni0213 uni0219 uni021B uni021F uni0237 uni03BC uni0430 uni0431 uni0432 uni0433 uni0434 uni0434.tri uni0435 uni0436 uni0437 uni0438 uni0439 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0448 uni0449 uni044A uni044B uni044C uni044D uni044E uni044F uni0450 uni0451 uni0453 uni0454 uni0456 uni0457 uni045C uni045D uni045E uni0491 uni1E87 uni1E89 uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent];
+@Close = [parenright bracketright braceright quoteright quotedblright guilsinglright guillemotright];
+feature case {
+    sub hyphen by hyphen.case;
+} case;
+lookup minus_form {
+    sub @MathContext hyphen' @MathContext by minus;
+    sub @MathContext space hyphen' space @MathContext by minus;
+    ignore sub @Letters hyphen' @Figures;
+    sub hyphen' @Figures by minus;
+} minus_form;
+lookup raised_hyphen {
+    sub @MathContext hyphen' by hyphen.case;
+    sub hyphen' @MathContext by hyphen.case;
+} raised_hyphen;
+lookup lower_colon {
+    sub @Lower [colon colon.tf]' by [colon.lc colon.tf.lc];
+    sub @Lower @Close [colon colon.tf]' by [colon.lc colon.tf.lc];
+    sub [colon colon.tf]' @Lower by [colon.lc colon.tf.lc];
+} lower_colon;
+feature calt {
+    lookup minus_form;
+    lookup raised_hyphen;
+    lookup lower_colon;
+} calt;
+# math_signs.py end
+
+# arrows.py
+feature ss05 {
+    sub [uni2190 uni2191 uni2192 uni2193 uni2194 uni2195 uni2196 uni2197 uni2198 uni2199] by [uni2190.flat uni2191.flat uni2192.flat uni2193.flat uni2194.flat uni2195.flat uni2196.flat uni2197.flat uni2198.flat uni2199.flat];
+} ss05;
+# arrows.py end
+
+# ligatures.py
+feature liga {
+    sub f f by f_f;
+    sub f i by f_i;
+    sub f l by f_l;
+    sub f f i by f_f_i;
+    sub f f l by f_f_l;
+    sub f t by f_t;
+} liga;
+lookup dlig_from_liga {
+    sub f_i by f_i.dlig;
+    sub f_f_i by f_f_i.dlig;
+    sub f_l by f_l.dlig;
+    sub f_f_l by f_f_l.dlig;
+} dlig_from_liga;
+lookup dlig_from_letters {
+    sub f i by f_i.dlig;
+    sub f f i by f_f_i.dlig;
+    sub f l by f_l.dlig;
+    sub f f l by f_f_l.dlig;
+} dlig_from_letters;
+feature dlig {
+    lookup dlig_from_liga;
+    lookup dlig_from_letters;
+} dlig;
+# ligatures.py end
+
+# frac.py
+@figures = [zero one two three four five six seven eight nine];
+@numr = [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+@dnom = [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+
+lookup frac_bar {
+    ignore sub slash @figures slash';
+    ignore sub slash' @figures slash;
+    ignore sub slash @figures @figures slash';
+    ignore sub slash' @figures @figures slash;
+    ignore sub slash @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures slash;
+    ignore sub slash @figures @figures @figures @figures slash';
+    ignore sub slash' @figures @figures @figures @figures slash;
+    sub @figures [slash fraction]' @figures by fraction;
+} frac_bar;
+
+lookup frac_numr {
+    rsub @figures' [@numr fraction] by @numr;
+} frac_numr;
+
+lookup frac_dnom {
+    sub [fraction @dnom] @figures' by @dnom;
+} frac_dnom;
+
+feature frac {
+    lookup frac_bar;
+    lookup frac_numr;
+    lookup frac_dnom;
+} frac;
+
+feature numr {
+    sub @figures by @numr;
+} numr;
+
+feature dnom {
+    sub @figures by @dnom;
+} dnom;
+
+feature sups {
+    sub @figures by [uni2070 uni00B9 uni00B2 uni00B3 uni2074 uni2075 uni2076 uni2077 uni2078 uni2079];
+} sups;
+
+feature sinf {
+    sub @figures by [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+} sinf;
+
+feature subs {
+    sub @figures by [uni2080 uni2081 uni2082 uni2083 uni2084 uni2085 uni2086 uni2087 uni2088 uni2089];
+} subs;
+# frac.py end
+
+# disambig.py
+lookup zero_slash {
+    sub [zero zero.numr zero.dnom zero.tf uni2070 uni2080] by [zero.slash zero.slash.numr zero.slash.dnom zero.slash.tf uni2070.slash uni2080.slash];
+} zero_slash;
+lookup l_tail {
+    sub [l lacute lcaron ldot lslash uni013C] by [l.tail lacute.tail lcaron.tail ldot.tail lslash.tail uni013C.tail];
+} l_tail;
+lookup one_foot {
+    sub [one one.numr one.dnom one.tf uni00B9 uni2081] by [one.foot one.foot.numr one.foot.dnom one.foot.tf uni00B9.foot uni2081.foot];
+} one_foot;
+feature zero { lookup zero_slash; } zero;
+feature cv01 { lookup l_tail; } cv01;
+feature cv02 { lookup one_foot; } cv02;
+feature ss02 {
+    lookup zero_slash;
+    lookup l_tail;
+    lookup one_foot;
+} ss02;
+# disambig.py end
+
+# j_base.py
+feature ss04 {
+    sub [J Jcircumflex] by [J.base Jcircumflex.base];
+} ss04;
+feature calt {
+    sub [parenleft bracketleft braceleft] [J Jcircumflex]' by [J.base Jcircumflex.base];
+} calt;
+# j_base.py end
+
+# sharp.py
+feature ss06 {
+    sub [A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek M N Ntilde Nacute uni0145 Ncaron V W Wcircumflex Wgrave Wacute Wdieresis uni1E86 uni1E88 Z Zacute Zdotaccent Zcaron uni0410 uni0418 uni040D uni0419 uni041C v w wcircumflex wgrave wacute wdieresis uni1E87 uni1E89 z zacute zdotaccent zcaron uni0438 uni0439 uni045D uni043C uni0414.tri uni2116 uni01CD] by [A.sharp Agrave.sharp Aacute.sharp Acircumflex.sharp Atilde.sharp Adieresis.sharp Aring.sharp Amacron.sharp Abreve.sharp Aogonek.sharp M.sharp N.sharp Ntilde.sharp Nacute.sharp uni0145.sharp Ncaron.sharp V.sharp W.sharp Wcircumflex.sharp Wgrave.sharp Wacute.sharp Wdieresis.sharp uni1E86.sharp uni1E88.sharp Z.sharp Zacute.sharp Zdotaccent.sharp Zcaron.sharp uni0410.sharp uni0418.sharp uni040D.sharp uni0419.sharp uni041C.sharp v.sharp w.sharp wcircumflex.sharp wgrave.sharp wacute.sharp wdieresis.sharp uni1E87.sharp uni1E89.sharp z.sharp zacute.sharp zdotaccent.sharp zcaron.sharp uni0438.sharp uni0439.sharp uni045D.sharp uni043C.sharp uni0414.tri.sharp uni2116.sharp uni01CD.sharp];
+} ss06;
+# sharp.py end
+
+# open_c.py
+feature ss07 {
+    sub [C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron uni0421 c ccedilla cacute ccircumflex cdotaccent ccaron uni0441] by [C.open Ccedilla.open Cacute.open Ccircumflex.open Cdotaccent.open Ccaron.open uni0421.open c.open ccedilla.open cacute.open ccircumflex.open cdotaccent.open ccaron.open uni0441.open];
+} ss07;
+# open_c.py end

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STYX Timeless</title>
+<style>
+  @font-face { font-family: "T"; font-style: normal; font-weight: 100 900;
+    src: url("../fonts/STYXTimeless/variable/STYXTimeless%5Bital,wght%5D.woff2") format("woff2"); }
+  @font-face { font-family: "T"; font-style: italic; font-weight: 100 900;
+    src: url("../fonts/STYXTimeless/variable/STYXTimeless%5Bital,wght%5D.woff2") format("woff2"); }
+  @font-face { font-family: "R"; font-style: normal; font-weight: 100 900;
+    src: url("../fonts/STYXTimelessRound/variable/STYXTimelessRound%5Bital,wght%5D.woff2") format("woff2"); }
+  @font-face { font-family: "R"; font-style: italic; font-weight: 100 900;
+    src: url("../fonts/STYXTimelessRound/variable/STYXTimelessRound%5Bital,wght%5D.woff2") format("woff2"); }
+
+  * { margin: 0; box-sizing: border-box; }
+  body { --bg: #f3f0e8; --fg: #141414; --mute: #8a867d; --accent: #141414; }
+  body[data-theme="ink"] { --bg: #121212; --fg: #ece7db; --mute: #77736b; --accent: #ece7db; }
+  body[data-theme="styx"] { --bg: #0d1b1e; --fg: #d8e3df; --mute: #5c7470; --accent: #6fc2b3; }
+  body[data-theme="oxblood"] { --bg: #ede6d8; --fg: #241815; --mute: #9a8b7d; --accent: #9b2c1d; }
+  body[data-theme="bauhaus"] { --bg: #f2f1ec; --fg: #151515; --mute: #8f897c; --accent: #d63a24; }
+  body[data-theme="reason"] { --bg: #0b0b0b; --fg: #f2e5c9; --mute: #7d7668; --accent: #e32d24; }
+  body[data-theme="night"] { --bg: #111830; --fg: #f1ece2; --mute: #6d7591; --accent: #eaa53c; }
+  html, body { width: 1600px; background: var(--bg); color: var(--fg); }
+  body { font-family: "T"; padding: 72px 80px; font-kerning: normal; }
+  hr { border: 0; border-top: 2px solid var(--fg); margin: 40px 0; }
+  .grey { color: var(--mute); }
+  .alt { color: var(--accent); }
+
+  h1 { font-size: 210px; font-weight: 500; line-height: 0.95; letter-spacing: -0.01em; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr 1.15fr; gap: 56px; }
+  .ramp div { font-size: 36px; line-height: 1.32; }
+  .ramp i { font-style: italic; }
+
+  .glyphs { display: grid; grid-template-columns: auto 1fr; gap: 10px 36px; align-items: baseline; }
+  .glyphs .big { font-size: 120px; font-weight: 400; line-height: 1; margin-bottom: 18px; }
+  .glyphs .row { grid-column: 1 / -1; font-size: 50px; font-weight: 400; line-height: 1.3; }
+  .ss01 { font-feature-settings: "ss01"; }
+  .ss02 { font-feature-settings: "ss02"; }
+  .ss04 { font-feature-settings: "ss04"; }
+  .ss05 { font-feature-settings: "ss05"; }
+  .ss07 { font-feature-settings: "ss07"; }
+  .frac { font-feature-settings: "frac"; }
+
+  .text p { font-size: 26px; line-height: 1.4; font-weight: 400; margin-bottom: 22px; }
+  .text .lead { font-size: 44px; line-height: 1.15; font-weight: 600; }
+
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+  .compare div div { font-size: 170px; font-weight: 800; line-height: 1; }
+  .compare .r { font-family: "R"; }
+
+</style>
+</head>
+<body>
+<section id="main">
+  <h1 id="title">STYX Timeless</h1>
+  <hr>
+  <div class="grid">
+    <div class="ramp" id="ramp"></div>
+    <div class="glyphs">
+      <div class="big">a<span class="ss01 alt">a</span></div>
+      <div class="big">→<span class="ss05 alt">→</span></div>
+      <div class="row">Il10 <span class="ss02 alt">Il10</span> &nbsp;CcJ <span class="alt" style="font-feature-settings: &quot;ss04&quot;, &quot;ss07&quot;">CcJ</span></div>
+      <div class="row">3×(4+5)≤27 <span class="frac">1/2 3/4</span></div>
+      <div class="row">ẞ Ґ Ї № Л Д ff ft</div>
+    </div>
+    <div class="text">
+      <p class="lead">Sphinx of black quartz, judge my vow.</p>
+      <p>Based on <span class="alt">Jost*</span> by <span class="alt">indestructible type*</span>, with various kerning fixes and additional features.</p>
+      <p><i>Съешь же ещё этих мягких французских булок, да выпей чаю.</i></p>
+      <p class="grey">Zażółć gęślą jaźń · Příliš žluťoučký kůň · Şapcă</p>
+    </div>
+  </div>
+</section>
+<section id="compare">
+  <hr>
+  <div class="compare">
+    <div><div>Vertex</div></div>
+    <div><div class="r">Vertex</div></div>
+  </div>
+</section>
+<script>
+  const q = new URLSearchParams(location.search);
+  if (q.get("theme")) document.body.dataset.theme = q.get("theme");
+  if (q.get("title")) document.getElementById("title").textContent = q.get("title");
+  const show = (q.get("show") || "main").split(/[+ ]/);
+  for (const id of ["main", "compare"])
+    if (!show.includes(id)) document.getElementById(id).remove();
+  document.fonts.ready.then(() => {
+    document.body.dataset.height = Math.ceil(document.body.getBoundingClientRect().height);
+  });
+  const weights = [["Hairline", 100], ["Thin", 200], ["Light", 300], ["Book", 400], ["Medium", 500],
+                   ["Demi", 600], ["Bold", 700], ["Heavy", 800], ["Black", 900]];
+  document.getElementById("ramp").innerHTML = weights
+    .map(([n, w]) => `<div style="font-weight:${w}">${n} <i>${n}</i></div>`).join("");
+</script>
+</body>
+</html>

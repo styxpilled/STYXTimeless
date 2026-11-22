@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon.tf.lc" format="2">
+  <advance width="385"/>
+  <outline>
+    <component base="colon.tf" yOffset="-80"/>
+  </outline>
+</glyph>

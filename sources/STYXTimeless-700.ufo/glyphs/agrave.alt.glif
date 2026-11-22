@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="agrave.alt" format="2">
+  <advance width="539"/>
+  <anchor x="236" y="717" name="top"/>
+  <anchor x="254" y="0" name="bottom"/>
+  <anchor x="497" y="25" name="ogonek"/>
+  <outline>
+    <component base="a.alt"/>
+    <component base="gravecomb" xOffset="50" yOffset="26"/>
+  </outline>
+</glyph>

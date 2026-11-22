@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01E7" format="2">
+  <advance width="635"/>
+  <unicode hex="01E7"/>
+  <anchor x="353" y="745" name="top"/>
+  <anchor x="308" y="0" name="bottom"/>
+  <anchor x="418" y="25" name="ogonek"/>
+  <outline>
+    <component base="g"/>
+    <component base="uni030C" xOffset="113" yOffset="-9"/>
+  </outline>
+</glyph>

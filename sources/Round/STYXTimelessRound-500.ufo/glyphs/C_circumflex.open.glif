@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ccircumflex.open" format="2">
+  <advance width="640"/>
+  <anchor x="372" y="947" name="top"/>
+  <anchor x="341" y="0" name="bottom"/>
+  <anchor x="448" y="25" name="ogonek"/>
+  <outline>
+    <component base="C.open"/>
+    <component base="uni0302.case" xOffset="132" yOffset="222"/>
+  </outline>
+</glyph>

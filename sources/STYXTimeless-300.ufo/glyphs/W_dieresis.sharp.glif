@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Wdieresis.sharp" format="2">
+  <advance width="974"/>
+  <anchor x="488" y="830" name="top"/>
+  <anchor x="487" y="0" name="bottom"/>
+  <anchor x="590" y="19" name="ogonek"/>
+  <outline>
+    <component base="W.sharp"/>
+    <component base="uni0308.case" xOffset="262" yOffset="163"/>
+  </outline>
+</glyph>

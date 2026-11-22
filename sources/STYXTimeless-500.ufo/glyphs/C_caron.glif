@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ccaron" format="2">
+  <advance width="691"/>
+  <unicode hex="010C"/>
+  <anchor x="396" y="948" name="top"/>
+  <anchor x="365" y="0" name="bottom"/>
+  <anchor x="472" y="25" name="ogonek"/>
+  <outline>
+    <component base="C"/>
+    <component base="uni030C.case" xOffset="156" yOffset="208"/>
+  </outline>
+</glyph>

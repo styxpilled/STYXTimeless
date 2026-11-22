@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="imacron" format="2">
+  <advance width="266"/>
+  <unicode hex="012B"/>
+  <anchor x="133" y="612" name="top"/>
+  <anchor x="133" y="0" name="bottom"/>
+  <anchor x="240" y="25" name="ogonek"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="uni0304" xOffset="-127" yOffset="-59"/>
+  </outline>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2116.sharp" format="2">
+  <advance width="941.0131107679249"/>
+  <outline>
+    <contour>
+      <point x="747" y="384" type="line"/>
+      <point x="753" y="422" type="line"/>
+      <point x="946" y="422" type="line"/>
+      <point x="940" y="384" type="line"/>
+    </contour>
+    <component base="N.sharp"/>
+    <component base="ordmasculine" xOffset="671.0131107679249"/>
+  </outline>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar" format="2">
+  <advance width="570"/>
+  <unicode hex="0127"/>
+  <anchor x="270" y="780" name="top"/>
+  <anchor x="270" y="0" name="bottom"/>
+  <anchor x="376" y="25" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="207" y="780" type="line"/>
+      <point x="207" y="0" type="line"/>
+      <point x="99" y="0" type="line"/>
+      <point x="99" y="780" type="line"/>
+    </contour>
+    <contour>
+      <point x="395" y="280" type="line" smooth="yes"/>
+      <point x="395" y="347"/>
+      <point x="369" y="383"/>
+      <point x="310" y="383" type="curve" smooth="yes"/>
+      <point x="249" y="383"/>
+      <point x="207" y="341"/>
+      <point x="207" y="280" type="curve"/>
+      <point x="181" y="280" type="line"/>
+      <point x="181" y="389"/>
+      <point x="243" y="473"/>
+      <point x="346" y="473" type="curve" smooth="yes"/>
+      <point x="449" y="473"/>
+      <point x="504" y="412"/>
+      <point x="504" y="295" type="curve" smooth="yes"/>
+      <point x="504" y="0" type="line"/>
+      <point x="395" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="35" y="614" type="line"/>
+      <point x="35" y="711" type="line"/>
+      <point x="355" y="711" type="line"/>
+      <point x="355" y="614" type="line"/>
+    </contour>
+  </outline>
+</glyph>

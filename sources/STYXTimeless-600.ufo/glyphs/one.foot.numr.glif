@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.foot.numr" format="2">
+  <advance width="395"/>
+  <outline>
+    <contour>
+      <point x="40" y="274" type="line"/>
+      <point x="40" y="356" type="line"/>
+      <point x="355" y="356" type="line"/>
+      <point x="355" y="274" type="line"/>
+    </contour>
+    <component base="one.numr"/>
+  </outline>
+</glyph>

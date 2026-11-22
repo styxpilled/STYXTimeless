@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Amacron.sharp" format="2">
+  <advance width="780"/>
+  <anchor x="390" y="920" name="top"/>
+  <anchor x="390" y="0" name="bottom"/>
+  <anchor x="743" y="25" name="ogonek"/>
+  <outline>
+    <component base="A.sharp"/>
+    <component base="uni0304.case" xOffset="118" yOffset="275"/>
+  </outline>
+</glyph>

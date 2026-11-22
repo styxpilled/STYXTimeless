@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wgrave.sharp" format="2">
+  <advance width="660"/>
+  <anchor x="374" y="705" name="top"/>
+  <anchor x="342" y="0" name="bottom"/>
+  <anchor x="442" y="24" name="ogonek"/>
+  <outline>
+    <component base="w.sharp"/>
+    <component base="gravecomb" xOffset="103" yOffset="57"/>
+  </outline>
+</glyph>

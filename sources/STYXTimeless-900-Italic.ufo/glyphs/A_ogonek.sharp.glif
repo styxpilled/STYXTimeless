@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aogonek.sharp" format="2">
+  <advance width="756"/>
+  <anchor x="469" y="700" name="top"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="665" y="25" name="ogonek"/>
+  <outline>
+    <component base="A.sharp"/>
+    <component base="uni0328" xOffset="489"/>
+  </outline>
+</glyph>

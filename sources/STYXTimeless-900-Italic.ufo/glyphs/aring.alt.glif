@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aring.alt" format="2">
+  <advance width="560"/>
+  <anchor x="387" y="763" name="top"/>
+  <anchor x="235" y="0" name="bottom"/>
+  <anchor x="447" y="25" name="ogonek"/>
+  <outline>
+    <component base="a.alt"/>
+    <component base="uni030A" xOffset="92" yOffset="-106"/>
+  </outline>
+</glyph>

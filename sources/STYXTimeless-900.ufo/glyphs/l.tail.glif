@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.tail" format="2">
+  <advance width="445"/>
+  <outline>
+    <contour>
+      <point x="343" y="184" type="curve"/>
+      <point x="418" y="46" type="line"/>
+      <point x="392" y="26"/>
+      <point x="346" y="-11"/>
+      <point x="259" y="-11" type="curve"/>
+      <point x="117" y="-11"/>
+      <point x="50" y="60"/>
+      <point x="50" y="159" type="curve"/>
+      <point x="50" y="780" type="line"/>
+      <point x="245" y="780" type="line"/>
+      <point x="245" y="214" type="line"/>
+      <point x="245" y="178"/>
+      <point x="264" y="159"/>
+      <point x="296" y="159" type="curve"/>
+      <point x="316" y="159"/>
+      <point x="329" y="169"/>
+    </contour>
+  </outline>
+</glyph>

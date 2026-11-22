@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Atilde.sharp" format="2">
+  <advance width="712"/>
+  <anchor x="356" y="903" name="top"/>
+  <anchor x="356" y="0" name="bottom"/>
+  <anchor x="715" y="25" name="ogonek"/>
+  <outline>
+    <component base="A.sharp"/>
+    <component base="tildecomb.case" xOffset="87" yOffset="239"/>
+  </outline>
+</glyph>

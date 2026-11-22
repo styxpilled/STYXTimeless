@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abreve.alt" format="2">
+  <advance width="462"/>
+  <anchor x="239" y="655" name="top"/>
+  <anchor x="216" y="0" name="bottom"/>
+  <anchor x="440" y="19" name="ogonek"/>
+  <outline>
+    <component base="a.alt"/>
+    <component base="uni0306" xOffset="-34" yOffset="-180"/>
+  </outline>
+</glyph>

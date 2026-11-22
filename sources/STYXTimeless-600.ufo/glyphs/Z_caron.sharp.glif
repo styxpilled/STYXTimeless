@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zcaron.sharp" format="2">
+  <advance width="597"/>
+  <anchor x="316" y="957" name="top"/>
+  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="408" y="25" name="ogonek"/>
+  <outline>
+    <component base="Z.sharp"/>
+    <component base="uni030C.case" xOffset="76" yOffset="219"/>
+  </outline>
+</glyph>

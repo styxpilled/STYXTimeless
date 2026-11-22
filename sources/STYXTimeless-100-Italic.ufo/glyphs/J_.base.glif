@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J.base" format="2">
+  <advance width="400"/>
+  <anchor x="409" y="700" name="top"/>
+  <anchor x="151" y="0" name="bottom"/>
+  <anchor x="206" y="10" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="32" y="110" type="line"/>
+      <point x="42" y="46"/>
+      <point x="76" y="2"/>
+      <point x="138" y="2" type="curve"/>
+      <point x="233" y="1"/>
+      <point x="299" y="98"/>
+      <point x="319" y="220" type="curve"/>
+      <point x="402" y="700" type="line"/>
+      <point x="414" y="700" type="line"/>
+      <point x="331" y="220" type="line"/>
+      <point x="309" y="92"/>
+      <point x="242" y="-10"/>
+      <point x="137" y="-10" type="curve"/>
+      <point x="67" y="-9"/>
+      <point x="32" y="38"/>
+      <point x="21" y="106" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

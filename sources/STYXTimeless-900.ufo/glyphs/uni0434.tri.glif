@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0434.tri" format="2">
+  <advance width="725"/>
+  <anchor x="360" y="495" name="top"/>
+  <anchor x="360" y="0" name="bottom"/>
+  <anchor x="470" y="25" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="360" y="252" type="line"/>
+      <point x="265" y="30" type="line"/>
+      <point x="85" y="80" type="line"/>
+      <point x="360" y="495" type="line"/>
+      <point x="635" y="80" type="line"/>
+      <point x="455" y="30" type="line"/>
+    </contour>
+    <contour>
+      <point x="505" y="0" type="line"/>
+      <point x="220" y="0" type="line"/>
+      <point x="220" y="-90" type="line"/>
+      <point x="35" y="-90" type="line"/>
+      <point x="35" y="145" type="line"/>
+      <point x="685" y="145" type="line"/>
+      <point x="685" y="-90" type="line"/>
+      <point x="505" y="-90" type="line"/>
+    </contour>
+  </outline>
+</glyph>

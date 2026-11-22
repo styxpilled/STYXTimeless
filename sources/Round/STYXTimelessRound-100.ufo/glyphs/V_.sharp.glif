@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="V.sharp" format="2">
+  <advance width="600"/>
+  <anchor x="300" y="700" name="top"/>
+  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="400" y="10" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="300" y="15" type="line"/>
+      <point x="570" y="695" type="line" smooth="yes"/>
+      <point x="571" y="698"/>
+      <point x="574" y="700"/>
+      <point x="578" y="700" type="curve" smooth="yes"/>
+      <point x="579" y="700" type="line" smooth="yes"/>
+      <point x="582" y="700"/>
+      <point x="584" y="697"/>
+      <point x="583" y="695" type="curve" smooth="yes"/>
+      <point x="315" y="21" type="line" smooth="yes"/>
+      <point x="309" y="8"/>
+      <point x="291" y="8"/>
+      <point x="285" y="21" type="curve" smooth="yes"/>
+      <point x="17" y="695" type="line" smooth="yes"/>
+      <point x="16" y="697"/>
+      <point x="18" y="700"/>
+      <point x="21" y="700" type="curve" smooth="yes"/>
+      <point x="22" y="700" type="line" smooth="yes"/>
+      <point x="26" y="700"/>
+      <point x="29" y="698"/>
+      <point x="30" y="695" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

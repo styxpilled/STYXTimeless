@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01DB" format="2">
+  <advance width="626"/>
+  <unicode hex="01DB"/>
+  <anchor x="269" y="1110" name="top"/>
+  <anchor x="313" y="0" name="bottom"/>
+  <anchor x="423" y="25" name="ogonek"/>
+  <outline>
+    <component base="U"/>
+    <component base="uni0308.case" xOffset="78" yOffset="165"/>
+    <component base="gravecomb.case" xOffset="81" yOffset="425"/>
+  </outline>
+</glyph>

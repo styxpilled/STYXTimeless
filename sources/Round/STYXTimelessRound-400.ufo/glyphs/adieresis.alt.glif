@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adieresis.alt" format="2">
+  <advance width="481"/>
+  <anchor x="248" y="625" name="top"/>
+  <anchor x="226" y="0" name="bottom"/>
+  <anchor x="463" y="25" name="ogonek"/>
+  <outline>
+    <component base="a.alt"/>
+    <component base="uni0308" xOffset="13" yOffset="-75"/>
+  </outline>
+</glyph>

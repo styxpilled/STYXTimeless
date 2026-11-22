@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z.sharp" format="2">
+  <advance width="503"/>
+  <anchor x="271" y="460" name="top"/>
+  <anchor x="257" y="0" name="bottom"/>
+  <anchor x="364" y="25" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="269" y="341" type="line"/>
+      <point x="54" y="341" type="line"/>
+      <point x="54" y="460" type="line"/>
+      <point x="489" y="460" type="line"/>
+      <point x="242" y="119" type="line"/>
+      <point x="460" y="119" type="line"/>
+      <point x="460" y="0" type="line"/>
+      <point x="15" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

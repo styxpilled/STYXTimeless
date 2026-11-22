@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_l.dlig" format="2">
+  <advance width="662"/>
+  <outline>
+    <contour>
+      <point x="92" y="0" type="line"/>
+      <point x="92" y="630" type="line"/>
+      <point x="92" y="731"/>
+      <point x="153" y="798"/>
+      <point x="277" y="798" type="curve"/>
+      <point x="423" y="798" type="line"/>
+      <point x="547" y="798"/>
+      <point x="608" y="731"/>
+      <point x="608" y="630" type="curve"/>
+      <point x="608" y="0" type="line"/>
+      <point x="443" y="0" type="line"/>
+      <point x="443" y="584" type="line"/>
+      <point x="443" y="626"/>
+      <point x="425" y="645"/>
+      <point x="395" y="645" type="curve"/>
+      <point x="305" y="645" type="line"/>
+      <point x="275" y="645"/>
+      <point x="257" y="626"/>
+      <point x="257" y="584" type="curve"/>
+      <point x="257" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="5" y="320" type="line"/>
+      <point x="5" y="460" type="line"/>
+      <point x="344" y="460" type="line"/>
+      <point x="344" y="320" type="line"/>
+    </contour>
+  </outline>
+</glyph>

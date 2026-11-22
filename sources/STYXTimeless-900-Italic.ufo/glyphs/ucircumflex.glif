@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ucircumflex" format="2">
+  <advance width="587"/>
+  <unicode hex="00FB"/>
+  <anchor x="395" y="746" name="top"/>
+  <anchor x="279" y="0" name="bottom"/>
+  <anchor x="470" y="25" name="ogonek"/>
+  <outline>
+    <component base="u"/>
+    <component base="uni0302" xOffset="64" yOffset="-9"/>
+  </outline>
+</glyph>

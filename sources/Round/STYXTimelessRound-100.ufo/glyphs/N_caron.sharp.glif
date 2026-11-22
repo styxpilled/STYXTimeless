@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ncaron.sharp" format="2">
+  <advance width="725"/>
+  <anchor x="337" y="903" name="top"/>
+  <anchor x="295" y="0" name="bottom"/>
+  <anchor x="396" y="10" name="ogonek"/>
+  <outline>
+    <component base="N.sharp"/>
+    <component base="uni030C.case" xOffset="97" yOffset="201"/>
+  </outline>
+</glyph>
